@@ -7,7 +7,7 @@ export default function App() {
   const [copied, setCopied] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
-  const contractAddress = "0x0000000000000000000000000000000000000000";
+  const contractAddress = "0xabc265cfa4a78d88e51b09e9da2e3784c85d8453";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress);
@@ -43,7 +43,7 @@ export default function App() {
             <button onClick={() => scrollToSection("faq")}>FAQ</button>
             <a href="https://x.com/ToshaOnToshi" target="_blank" rel="noopener noreferrer"><Twitter size={18} /> Twitter</a>
             <a href="https://t.me/ToshaOnToshi" target="_blank" rel="noopener noreferrer"><Send size={18} /> Telegram</a>
-            <a href="https://toshimart.xyz/" target="_blank" rel="noopener noreferrer" className="buy-btn">Buy on ToshiMart</a>
+            <a href="https://toshimart.xyz/0xabc265cfa4a78d88e51b09e9da2e3784c85d8453" target="_blank" rel="noopener noreferrer" className="buy-btn">Buy on ToshiMart</a>
             <button onClick={() => scrollToSection("chart")} className="chart-btn">Chart</button>
           </div>
 
